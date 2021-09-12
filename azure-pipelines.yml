@@ -117,7 +117,7 @@ stages:
     dependsOn: Deploy
     displayName: 'Run UI tests'
     pool:
-      vmImage: 'windows-10'
+      vmImage: 'windows-2022'
     variables:
     - group: 'Release'
     steps: 
