@@ -24,7 +24,9 @@ stages:
     - task: UseDotNet@2
       displayName: 'Use .NET SDK $(dotnetSdkVersion)'
       inputs:
-        version: '$(dotnetSdkVersion)'
+        version: '2.2.x' #'$(dotnetSdkVersion)'
+        includePreviewVersions: true
+        performMultiLevelLookup: true
 
     - task: Npm@1
       displayName: 'Run npm install'
