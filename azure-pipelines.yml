@@ -24,7 +24,7 @@ stages:
     - task: UseDotNet@2
       displayName: 'Use .NET SDK $(dotnetSdkVersion)'
       inputs:
-        version: '2.2.x' #'$(dotnetSdkVersion)'
+        version: '$(dotnetSdkVersion)'
         includePreviewVersions: true
         performMultiLevelLookup: true
 
