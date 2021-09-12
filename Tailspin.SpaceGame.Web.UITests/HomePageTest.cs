@@ -63,7 +63,7 @@ namespace UITests
                 driver.Navigate().GoToUrl(url + "/");
 
                 // Wait for the page to be completely loaded.
-                new WebDriverWait(driver, TimeSpan.FromSeconds(40))
+                new WebDriverWait(driver, TimeSpan.FromSeconds(180))
                     .Until(d => ((IJavaScriptExecutor) d)
                         .ExecuteScript("return document.readyState")
                         .Equals("complete"));
@@ -128,7 +128,7 @@ namespace UITests
             Assert.That(modalWasDisplayed, Is.True);
         }
 
-        private IWebElement FindElement(By locator, IWebElement parent = null, int timeoutSeconds = 40)
+        private IWebElement FindElement(By locator, IWebElement parent = null, int timeoutSeconds = 180)
         {
             // WebDriverWait enables us to wait for the specified condition to be true
             // within a given time period.
