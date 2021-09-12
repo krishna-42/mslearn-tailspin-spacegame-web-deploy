@@ -15,7 +15,7 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="91.0.4472.10100" />
     <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.29.1" />
     <PackageReference Include="Microsoft.Edge.SeleniumTools" Version="3.141.0" />
-    <PackageReference Include="WebDriverManager" Version="4.0.0-alpha03" />
+    <PackageReference Include="WebDriverManager" Version="5.0.1" />
   </ItemGroup>
 
 </Project>
