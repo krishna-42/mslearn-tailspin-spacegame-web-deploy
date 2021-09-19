@@ -22,7 +22,7 @@ section {
 
 .intro {
     height: 350px;
-    background-color: #666;
+    background-color: green;
     background-image: url('/images/space-background.svg');
     background-size: 1440px;
     background-position: center top;
@@ -61,7 +61,7 @@ section {
 }
 
 .screens {
-    background: #666;
+    background: rgb(56, 10, 223);
 
     ul {
         padding: 0;
@@ -104,7 +104,7 @@ section {
     .leader-nav {
         .nav-buttons {
             h4 {
-                background: #333;
+                background: rgb(10, 240, 67);
                 color: white;
                 padding: 1rem;
                 margin: 0;
@@ -112,7 +112,7 @@ section {
                 border-top-right-radius: 10px;
             }
 
-            border: 1px solid #999;
+            border: 1px solid rgb(241, 6, 151);
             border-radius: 10px;
             margin: 1rem;
             margin-top: 0;
@@ -142,7 +142,7 @@ section {
             margin-top: 1rem;
 
             > li > a {
-                border-color: #999;
+                border-color: rgb(252, 10, 179);
                 color: var(--link);
             }
 
@@ -154,7 +154,7 @@ section {
     }
 
     .high-score {
-        border: 1px solid #999;
+        border: 1px solid rgb(6, 250, 116);
         border-top-color: transparent;
         padding: 2rem 0 .5rem;
     }
